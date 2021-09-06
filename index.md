@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/kanagarajup/kanagaraju.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kanagarajup/kanagaraju.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mx-auto px-4 mt-4">
+            <h1 class="font-bold bg-green-400 text-3xl underline italic p-4 text-center">Welcome to the Course: Web Development 101</h1>
+            <div class="mx-24 bg-green-200 text-justify px-6">
+                <h2 class="text-xl my-2 text-2xl underline italic p-2"><b>List of Topics to Learn</b></h2>
+                <table> <tr><td>
+                <ul class="list-disc p-6 font-bold">
+                    <li><b>Introudction to HTML:</b><br> HTML is the standard markup language for Web pages. With HTML you can create your own Website. </li>
+                        
+                    <li><b>Cascading Style Sheet:</b> <br>CSS is the language we use to style an HTML document.</li>
+                    <li><b>JavaScript:</b><br> JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.</li>
+                    <ul class="list-disc p-6 font-bold">
+                        <li>JavaScript Strings</li>
+                        <li>JavaScript Arrays</li>
+                        <li>JavaScript Functions</li>
+                    </ul>
+                    <li class="p-2 font-bold"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-8 px-12 rounded"><a href="martial animation.html">Martial Arts Simulator</a></button></li>
+                </ul></td>                
+                <td><img class="float-left max-w-auto md:max-w-lg md:mr-4" src="background.jpg" alt="A sample backwater image"></td></tr>
+            </table>
+            </div>
+        </div>
+    </body>
+</html>
